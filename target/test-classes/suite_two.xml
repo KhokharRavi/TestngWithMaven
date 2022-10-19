@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Create and Delete User Test Cases">
+  <test name="Create User Test">
+		<classes>
+			<class name="testcases.suite_two.CreateUser" />
+		</classes>
+	</test>
+	<test name="Delete User Test">
+		<classes>
+			<class name="testcases.suite_two.DeleteUser" />
+		</classes>
+	</test>
+</suite> <!-- Create and Delete User Test Cases -->

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.874" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\QA\qa-workspace\TestNGBasicsMaven\target\test-classes;D:\QA\qa-workspace\TestNGBasicsMaven\target\classes;C:\Users\Ravi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Ravi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ravi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Ravi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Ravi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ravi\AppData\Local\Temp\surefire217658023510667417\surefirebooter-20221019174353674_3.jar C:\Users\Ravi\AppData\Local\Temp\surefire217658023510667417 2022-10-19T17-43-52_334-jvmRun1 surefire-20221019174353674_1tmp surefire_0-20221019174353674_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\QA\qa-workspace\TestNGBasicsMaven\target\test-classes;D:\QA\qa-workspace\TestNGBasicsMaven\target\classes;C:\Users\Ravi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Ravi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ravi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Ravi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Ravi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ravi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\QA\qa-workspace\TestNGBasicsMaven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ravi\AppData\Local\Temp\surefire217658023510667417\surefirebooter-20221019174353674_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="Ravi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Ravi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ravi\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\QA\qa-workspace\TestNGBasicsMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.3\bin;C:\Users\Ravi\AppData\Local\Android\Sdk\platform-tools;C:\testing\drivers;C:\Software\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ravi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.11\bin;C:\Users\Ravi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\bin;C:\Users\Ravi\development\sdks\flutter\bin;C:\Users\Ravi\.dotnet\tools;C:\Program Files\TortoiseSVN\bin;C:\Users\Ravi\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;C:\Program Files\apache-maven-3.8.3\bin;C:\testing\drivers;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createUserUsingProviderClass[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.CreateUser" time="0.033">
+    <system-out><![CDATA[createUserUsingProviderClass
+The thread ID for softAssert 18
+The thread ID for softAssert 20
+The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.CreateUser" time="0.013">
+    <system-out><![CDATA[createUserUsingProviderClass
+The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.CreateUser" time="0">
+    <system-out><![CDATA[createUserUsingProviderClass
+The thread ID for createUserUsingProviderClass 22
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.CreateUser" time="0.003">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.CreateUser" time="0.005">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.CreateUser" time="0.011">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 22
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.CreateUser" time="0.002">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.CreateUser" time="0.009">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 19
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="createUserUsingProviderClass[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.CreateUser" time="0.002">
+    <system-out><![CDATA[The thread ID for createUserUsingProviderClass 22
+onTestSuccess: createUserUsingProviderClass
+]]></system-out>
+  </testcase>
+  <testcase name="softAssert" classname="testcases.suite_one.LoginTest" time="0.005">
+    <system-out><![CDATA[onTestSuccess: softAssert
+]]></system-out>
+  </testcase>
+  <testcase name="softAssert" classname="testcases.suite_one.LoginTest" time="0.016">
+    <system-out><![CDATA[onTestSuccess: softAssert
+]]></system-out>
+  </testcase>
+  <testcase name="softAssert" classname="testcases.suite_one.LoginTest" time="0.002">
+    <system-out><![CDATA[The thread ID for softAssert 21
+onTestSuccess: softAssert
+]]></system-out>
+  </testcase>
+  <testcase name="searchPhone[org.testng.TestRunner@54684790](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.008">
+    <system-out><![CDATA[The thread ID for searchPhone 18
+Search phone
+onTestSuccess: searchPhone
+The thread ID for searchPhone 20
+Search phone
+onTestSuccess: searchPhone
+]]></system-out>
+  </testcase>
+  <testcase name="searchPhone[org.testng.TestRunner@3c432760](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.008"/>
+  <testcase name="selectPhone[org.testng.TestRunner@3c432760](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.009">
+    <system-out><![CDATA[The thread ID for selectPhone 18
+Select phone: Apple
+onTestSuccess: selectPhone
+]]></system-out>
+  </testcase>
+  <testcase name="selectPhone[org.testng.TestRunner@54684790](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.003">
+    <system-out><![CDATA[The thread ID for selectPhone 20
+Select phone: Apple
+onTestSuccess: selectPhone
+]]></system-out>
+  </testcase>
+  <testcase name="buyPhone[org.testng.TestRunner@54684790](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.003">
+    <system-out><![CDATA[The thread ID for buyPhone 20
+Buy phone: Apple iPhone 13
+onTestSuccess: buyPhone
+]]></system-out>
+  </testcase>
+  <testcase name="buyPhone[org.testng.TestRunner@3c432760](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.024">
+    <system-out><![CDATA[The thread ID for buyPhone 18
+Buy phone: Apple iPhone 13
+onTestSuccess: buyPhone
+]]></system-out>
+  </testcase>
+  <testcase name="searchPhone[org.testng.TestRunner@546263d0](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.007">
+    <system-out><![CDATA[The thread ID for searchPhone 24
+Search phone
+onTestSuccess: searchPhone
+]]></system-out>
+  </testcase>
+  <testcase name="selectPhone[org.testng.TestRunner@546263d0](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.005">
+    <system-out><![CDATA[The thread ID for selectPhone 25
+Select phone: Apple
+onTestSuccess: selectPhone
+]]></system-out>
+  </testcase>
+  <testcase name="buyPhone[org.testng.TestRunner@546263d0](1)" classname="testcases.suite_one.SearchAndBuyPhone" time="0.002">
+    <system-out><![CDATA[The thread ID for buyPhone 24
+Buy phone: Apple iPhone 13
+onTestSuccess: buyPhone
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.DeleteUser" time="0">
+    <system-out><![CDATA[deleteUser
+The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.DeleteUser" time="0.001">
+    <system-out><![CDATA[deleteUser
+The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[1, Ravi, Khokhar, rk@gmail.com, 9876543210](1)" classname="testcases.suite_two.DeleteUser" time="0.002">
+    <system-out><![CDATA[deleteUser
+The thread ID for deleteUser 23
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.DeleteUser" time="0.002">
+    <system-out><![CDATA[The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.DeleteUser" time="0.006">
+    <system-out><![CDATA[The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[2, Nikunj, Radadiya, nr@gmail.com, 9886343222](2)" classname="testcases.suite_two.DeleteUser" time="0.002">
+    <system-out><![CDATA[The thread ID for deleteUser 23
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.DeleteUser" time="0.002">
+    <system-out><![CDATA[The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.DeleteUser" time="0.001">
+    <system-out><![CDATA[The thread ID for deleteUser 19
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[3, Jeenal, Radadiya, nr@gmail.com, 7776543278](3)" classname="testcases.suite_two.DeleteUser" time="0.002">
+    <system-out><![CDATA[The thread ID for deleteUser 23
+onTestSuccess: deleteUser
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login and Search Product Test Cases">
+	
+	<test name="Login Test">
+		<classes>
+			<class name="testcases.suite_one.LoginTest" />
+		</classes>
+	</test>
+	<test name="Search and Buy Phone Test">
+		<classes>
+			<class name="testcases.suite_one.SearchAndBuyPhone" />
+		</classes>
+	</test>
+</suite> <!-- Suite Login and Search Product -->

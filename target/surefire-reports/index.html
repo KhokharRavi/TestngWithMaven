@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">6 suites, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Combine_Execution" class="navigator-link">
+              <span class="suite-name border-failed">All Combine Execution</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Combine_Execution" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\testng_all.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Combine_Execution" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Combine_Execution" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Combine_Execution" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Combine_Execution" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Combine_Execution" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Combine_Execution" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Combine_Execution" class="hide-methods failed suite-All_Combine_Execution"> (hide)</a> <!-- hide-methods failed suite-All_Combine_Execution -->
+                      <a href="#" panel-name="suite-All_Combine_Execution" class="show-methods failed suite-All_Combine_Execution"> (show)</a> <!-- show-methods failed suite-All_Combine_Execution -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Combine_Execution">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Combine_Execution -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Combine_Execution" class="hide-methods passed suite-All_Combine_Execution"> (hide)</a> <!-- hide-methods passed suite-All_Combine_Execution -->
+                      <a href="#" panel-name="suite-All_Combine_Execution" class="show-methods passed suite-All_Combine_Execution"> (show)</a> <!-- show-methods passed suite-All_Combine_Execution -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Combine_Execution">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="buyPhone(org.testng.TestRunner@702326c9)">buyPhone(org.testng.TestRunner@702326c9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="searchPhone(org.testng.TestRunner@702326c9)">searchPhone(org.testng.TestRunner@702326c9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="selectPhone(org.testng.TestRunner@702326c9)">selectPhone(org.testng.TestRunner@702326c9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Combine_Execution" title="testcases.suite_one.LoginTest" class="method navigator-link" hash-for-method="softAssert">softAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Combine_Execution -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" class="navigator-link">
+              <span class="suite-name border-failed">Create and Delete User Test Cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_two.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Create_and_Delete_User_Test_Cases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" class="hide-methods failed suite-Create_and_Delete_User_Test_Cases"> (hide)</a> <!-- hide-methods failed suite-Create_and_Delete_User_Test_Cases -->
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" class="show-methods failed suite-Create_and_Delete_User_Test_Cases"> (show)</a> <!-- show-methods failed suite-Create_and_Delete_User_Test_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Create_and_Delete_User_Test_Cases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Create_and_Delete_User_Test_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" class="hide-methods passed suite-Create_and_Delete_User_Test_Cases"> (hide)</a> <!-- hide-methods passed suite-Create_and_Delete_User_Test_Cases -->
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" class="show-methods passed suite-Create_and_Delete_User_Test_Cases"> (show)</a> <!-- show-methods passed suite-Create_and_Delete_User_Test_Cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Create_and_Delete_User_Test_Cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Create_and_Delete_User_Test_Cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="navigator-link">
+              <span class="suite-name border-failed">Create and Delete User Test Cases (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_two.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Create_and_Delete_User_Test_Cases__0_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="hide-methods failed suite-Create_and_Delete_User_Test_Cases__0_"> (hide)</a> <!-- hide-methods failed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="show-methods failed suite-Create_and_Delete_User_Test_Cases__0_"> (show)</a> <!-- show-methods failed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                    </span>
+                    <div class="method-list-content failed suite-Create_and_Delete_User_Test_Cases__0_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="hide-methods passed suite-Create_and_Delete_User_Test_Cases__0_"> (hide)</a> <!-- hide-methods passed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                      <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="show-methods passed suite-Create_and_Delete_User_Test_Cases__0_"> (show)</a> <!-- show-methods passed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Create_and_Delete_User_Test_Cases__0_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.CreateUser" class="method navigator-link" hash-for-method="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_and_Delete_User_Test_Cases__0_" title="testcases.suite_two.DeleteUser" class="method navigator-link" hash-for-method="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Create_and_Delete_User_Test_Cases__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" class="navigator-link">
+              <span class="suite-name border-passed">Login and Search Product Test Cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_one.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login_and_Search_Product_Test_Cases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" class="hide-methods passed suite-Login_and_Search_Product_Test_Cases"> (hide)</a> <!-- hide-methods passed suite-Login_and_Search_Product_Test_Cases -->
+                      <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" class="show-methods passed suite-Login_and_Search_Product_Test_Cases"> (show)</a> <!-- show-methods passed suite-Login_and_Search_Product_Test_Cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Login_and_Search_Product_Test_Cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="buyPhone(org.testng.TestRunner@29310098)">buyPhone(org.testng.TestRunner@29310098)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="searchPhone(org.testng.TestRunner@29310098)">searchPhone(org.testng.TestRunner@29310098)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="selectPhone(org.testng.TestRunner@29310098)">selectPhone(org.testng.TestRunner@29310098)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases" title="testcases.suite_one.LoginTest" class="method navigator-link" hash-for-method="softAssert">softAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login_and_Search_Product_Test_Cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" class="navigator-link">
+              <span class="suite-name border-passed">Login and Search Product Test Cases (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_one.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login_and_Search_Product_Test_Cases__0_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" class="hide-methods passed suite-Login_and_Search_Product_Test_Cases__0_"> (hide)</a> <!-- hide-methods passed suite-Login_and_Search_Product_Test_Cases__0_ -->
+                      <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" class="show-methods passed suite-Login_and_Search_Product_Test_Cases__0_"> (show)</a> <!-- show-methods passed suite-Login_and_Search_Product_Test_Cases__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Login_and_Search_Product_Test_Cases__0_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="buyPhone(org.testng.TestRunner@1c6e1ca7)">buyPhone(org.testng.TestRunner@1c6e1ca7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="searchPhone(org.testng.TestRunner@1c6e1ca7)">searchPhone(org.testng.TestRunner@1c6e1ca7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" title="testcases.suite_one.SearchAndBuyPhone" class="method navigator-link" hash-for-method="selectPhone(org.testng.TestRunner@1c6e1ca7)">selectPhone(org.testng.TestRunner@1c6e1ca7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_and_Search_Product_Test_Cases__0_" title="testcases.suite_one.LoginTest" class="method navigator-link" hash-for-method="softAssert">softAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login_and_Search_Product_Test_Cases__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Combine_Execution" class="panel All_Combine_Execution">
+          <div class="suite-All_Combine_Execution-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Radadiya] but found [Khokhar]
+	at testcases.suite_two.DeleteUser.deleteUser(DeleteUser.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Combine_Execution-class-failed -->
+          <div class="suite-All_Combine_Execution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssert">
+                  </a> <!-- softAssert -->
+                  <span class="method-name">softAssert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Combine_Execution-class-passed -->
+          <div class="suite-All_Combine_Execution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.SearchAndBuyPhone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyPhone(org.testng.TestRunner@702326c9)">
+                  </a> <!-- buyPhone(org.testng.TestRunner@702326c9) -->
+                  <span class="method-name">buyPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@702326c9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPhone(org.testng.TestRunner@702326c9)">
+                  </a> <!-- searchPhone(org.testng.TestRunner@702326c9) -->
+                  <span class="method-name">searchPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@702326c9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPhone(org.testng.TestRunner@702326c9)">
+                  </a> <!-- selectPhone(org.testng.TestRunner@702326c9) -->
+                  <span class="method-name">selectPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@702326c9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Combine_Execution-class-passed -->
+          <div class="suite-All_Combine_Execution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Combine_Execution-class-passed -->
+          <div class="suite-All_Combine_Execution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Combine_Execution-class-passed -->
+        </div> <!-- panel All_Combine_Execution -->
+        <div panel-name="suite-Create_and_Delete_User_Test_Cases" class="panel Create_and_Delete_User_Test_Cases">
+          <div class="suite-Create_and_Delete_User_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Radadiya] but found [Khokhar]
+	at testcases.suite_two.DeleteUser.deleteUser(DeleteUser.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases-class-failed -->
+          <div class="suite-Create_and_Delete_User_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases-class-passed -->
+          <div class="suite-Create_and_Delete_User_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases-class-passed -->
+        </div> <!-- panel Create_and_Delete_User_Test_Cases -->
+        <div panel-name="suite-Create_and_Delete_User_Test_Cases__0_" class="panel Create_and_Delete_User_Test_Cases__0_">
+          <div class="suite-Create_and_Delete_User_Test_Cases__0_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Radadiya] but found [Khokhar]
+	at testcases.suite_two.DeleteUser.deleteUser(DeleteUser.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases__0_-class-failed -->
+          <div class="suite-Create_and_Delete_User_Test_Cases__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases__0_-class-passed -->
+          <div class="suite-Create_and_Delete_User_Test_Cases__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_two.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)">
+                  </a> <!-- createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(2,Nikunj,Radadiya,nr@gmail.com,9886343222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)">
+                  </a> <!-- createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(3,Jeenal,Radadiya,nr@gmail.com,7776543278)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)">
+                  </a> <!-- createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210) -->
+                  <span class="method-name">createUserUsingProviderClass</span>
+                  <span class="parameters">(1,Ravi,Khokhar,rk@gmail.com,9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_and_Delete_User_Test_Cases__0_-class-passed -->
+        </div> <!-- panel Create_and_Delete_User_Test_Cases__0_ -->
+        <div panel-name="suite-Login_and_Search_Product_Test_Cases" class="panel Login_and_Search_Product_Test_Cases">
+          <div class="suite-Login_and_Search_Product_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssert">
+                  </a> <!-- softAssert -->
+                  <span class="method-name">softAssert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_and_Search_Product_Test_Cases-class-passed -->
+          <div class="suite-Login_and_Search_Product_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.SearchAndBuyPhone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyPhone(org.testng.TestRunner@29310098)">
+                  </a> <!-- buyPhone(org.testng.TestRunner@29310098) -->
+                  <span class="method-name">buyPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@29310098)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPhone(org.testng.TestRunner@29310098)">
+                  </a> <!-- searchPhone(org.testng.TestRunner@29310098) -->
+                  <span class="method-name">searchPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@29310098)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPhone(org.testng.TestRunner@29310098)">
+                  </a> <!-- selectPhone(org.testng.TestRunner@29310098) -->
+                  <span class="method-name">selectPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@29310098)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_and_Search_Product_Test_Cases-class-passed -->
+        </div> <!-- panel Login_and_Search_Product_Test_Cases -->
+        <div panel-name="suite-Multiple_Suite_Test_Cases_Execution" class="panel Multiple_Suite_Test_Cases_Execution">
+        </div> <!-- panel Multiple_Suite_Test_Cases_Execution -->
+        <div panel-name="suite-Login_and_Search_Product_Test_Cases__0_" class="panel Login_and_Search_Product_Test_Cases__0_">
+          <div class="suite-Login_and_Search_Product_Test_Cases__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssert">
+                  </a> <!-- softAssert -->
+                  <span class="method-name">softAssert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_and_Search_Product_Test_Cases__0_-class-passed -->
+          <div class="suite-Login_and_Search_Product_Test_Cases__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.suite_one.SearchAndBuyPhone</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyPhone(org.testng.TestRunner@1c6e1ca7)">
+                  </a> <!-- buyPhone(org.testng.TestRunner@1c6e1ca7) -->
+                  <span class="method-name">buyPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@1c6e1ca7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPhone(org.testng.TestRunner@1c6e1ca7)">
+                  </a> <!-- searchPhone(org.testng.TestRunner@1c6e1ca7) -->
+                  <span class="method-name">searchPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@1c6e1ca7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPhone(org.testng.TestRunner@1c6e1ca7)">
+                  </a> <!-- selectPhone(org.testng.TestRunner@1c6e1ca7) -->
+                  <span class="method-name">selectPhone</span>
+                  <span class="parameters">(org.testng.TestRunner@1c6e1ca7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_and_Search_Product_Test_Cases__0_-class-passed -->
+        </div> <!-- panel Login_and_Search_Product_Test_Cases__0_ -->
+        <div panel-name="test-xml-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\testng_all.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Combine Execution&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestNGListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.CreateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create User Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.DeleteUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete User Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search and Buy Phone Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.SearchAndBuyPhone&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search and Buy Phone Test --&gt;
+&lt;/suite&gt; &lt;!-- All Combine Execution --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_two.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Create and Delete User Test Cases&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.CreateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create User Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.DeleteUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete User Test --&gt;
+&lt;/suite&gt; &lt;!-- Create and Delete User Test Cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_two.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Create and Delete User Test Cases (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.CreateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create User Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete User Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_two.DeleteUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete User Test --&gt;
+&lt;/suite&gt; &lt;!-- Create and Delete User Test Cases (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_one.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login and Search Product Test Cases&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search and Buy Phone Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.SearchAndBuyPhone&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search and Buy Phone Test --&gt;
+&lt;/suite&gt; &lt;!-- Login and Search Product Test Cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_combine.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Multiple Suite Test Cases Execution&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestNGListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;src/test/resources/suite_one.xml&quot;/&gt;
+    &lt;suite-file path=&quot;src/test/resources/suite_Two.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Multiple Suite Test Cases Execution --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\TestNGBasicsMaven\src\test\resources\suite_one.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login and Search Product Test Cases (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search and Buy Phone Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.suite_one.SearchAndBuyPhone&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search and Buy Phone Test --&gt;
+&lt;/suite&gt; &lt;!-- Login and Search Product Test Cases (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Combine Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create User Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete User Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search and Buy Phone Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Create and Delete User Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create User Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete User Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Create and Delete User Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create User Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete User Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login and Search Product Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search and Buy Phone Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Multiple Suite Test Cases Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login and Search Product Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search and Buy Phone Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Combine Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Create and Delete User Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Create and Delete User Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login and Search Product Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Multiple Suite Test Cases Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login and Search Product Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Combine Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Combine_Execution');
+function tableData_All_Combine_Execution() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteUser')
+data.setCell(0, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUser')
+data.setCell(1, 2, 'testcases.suite_two.CreateUser')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'buyPhone')
+data.setCell(2, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'softAssert')
+data.setCell(3, 2, 'testcases.suite_one.LoginTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUser')
+data.setCell(4, 2, 'testcases.suite_two.CreateUser')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUserUsingProviderClass')
+data.setCell(5, 2, 'testcases.suite_two.CreateUser')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createUserUsingProviderClass')
+data.setCell(6, 2, 'testcases.suite_two.CreateUser')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createUser')
+data.setCell(7, 2, 'testcases.suite_two.CreateUser')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createUserUsingProviderClass')
+data.setCell(8, 2, 'testcases.suite_two.CreateUser')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteUser')
+data.setCell(9, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deleteUser')
+data.setCell(10, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchPhone')
+data.setCell(11, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'selectPhone')
+data.setCell(12, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(12, 3, 1);
+window.suiteTableData['All_Combine_Execution']= { tableData: data, tableDiv: 'times-div-All_Combine_Execution'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 ms</span>
+              <div id="times-div-All_Combine_Execution">
+              </div> <!-- times-div-All_Combine_Execution -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Create and Delete User Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Create_and_Delete_User_Test_Cases');
+function tableData_Create_and_Delete_User_Test_Cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteUser')
+data.setCell(0, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(0, 3, 32);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUser')
+data.setCell(1, 2, 'testcases.suite_two.CreateUser')
+data.setCell(1, 3, 11);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createUserUsingProviderClass')
+data.setCell(2, 2, 'testcases.suite_two.CreateUser')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteUser')
+data.setCell(3, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUserUsingProviderClass')
+data.setCell(4, 2, 'testcases.suite_two.CreateUser')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUserUsingProviderClass')
+data.setCell(5, 2, 'testcases.suite_two.CreateUser')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteUser')
+data.setCell(6, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createUser')
+data.setCell(7, 2, 'testcases.suite_two.CreateUser')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createUser')
+data.setCell(8, 2, 'testcases.suite_two.CreateUser')
+data.setCell(8, 3, 0);
+window.suiteTableData['Create_and_Delete_User_Test_Cases']= { tableData: data, tableDiv: 'times-div-Create_and_Delete_User_Test_Cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 ms</span>
+              <div id="times-div-Create_and_Delete_User_Test_Cases">
+              </div> <!-- times-div-Create_and_Delete_User_Test_Cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Create and Delete User Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Create_and_Delete_User_Test_Cases__0_');
+function tableData_Create_and_Delete_User_Test_Cases__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUser')
+data.setCell(0, 2, 'testcases.suite_two.CreateUser')
+data.setCell(0, 3, 11);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserUsingProviderClass')
+data.setCell(1, 2, 'testcases.suite_two.CreateUser')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteUser')
+data.setCell(2, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUser')
+data.setCell(3, 2, 'testcases.suite_two.CreateUser')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUserUsingProviderClass')
+data.setCell(4, 2, 'testcases.suite_two.CreateUser')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createUser')
+data.setCell(5, 2, 'testcases.suite_two.CreateUser')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createUserUsingProviderClass')
+data.setCell(6, 2, 'testcases.suite_two.CreateUser')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteUser')
+data.setCell(7, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteUser')
+data.setCell(8, 2, 'testcases.suite_two.DeleteUser')
+data.setCell(8, 3, 1);
+window.suiteTableData['Create_and_Delete_User_Test_Cases__0_']= { tableData: data, tableDiv: 'times-div-Create_and_Delete_User_Test_Cases__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 ms</span>
+              <div id="times-div-Create_and_Delete_User_Test_Cases__0_">
+              </div> <!-- times-div-Create_and_Delete_User_Test_Cases__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login and Search Product Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login_and_Search_Product_Test_Cases');
+function tableData_Login_and_Search_Product_Test_Cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'softAssert')
+data.setCell(0, 2, 'testcases.suite_one.LoginTest')
+data.setCell(0, 3, 50);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectPhone')
+data.setCell(1, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(1, 3, 29);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'buyPhone')
+data.setCell(2, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchPhone')
+data.setCell(3, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(3, 3, 1);
+window.suiteTableData['Login_and_Search_Product_Test_Cases']= { tableData: data, tableDiv: 'times-div-Login_and_Search_Product_Test_Cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 82 ms</span>
+              <div id="times-div-Login_and_Search_Product_Test_Cases">
+              </div> <!-- times-div-Login_and_Search_Product_Test_Cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Multiple Suite Test Cases Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Multiple_Suite_Test_Cases_Execution');
+function tableData_Multiple_Suite_Test_Cases_Execution() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Multiple_Suite_Test_Cases_Execution']= { tableData: data, tableDiv: 'times-div-Multiple_Suite_Test_Cases_Execution'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Multiple_Suite_Test_Cases_Execution">
+              </div> <!-- times-div-Multiple_Suite_Test_Cases_Execution -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login and Search Product Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login_and_Search_Product_Test_Cases__0_');
+function tableData_Login_and_Search_Product_Test_Cases__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'softAssert')
+data.setCell(0, 2, 'testcases.suite_one.LoginTest')
+data.setCell(0, 3, 50);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchPhone')
+data.setCell(1, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectPhone')
+data.setCell(2, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'buyPhone')
+data.setCell(3, 2, 'testcases.suite_one.SearchAndBuyPhone')
+data.setCell(3, 3, 0);
+window.suiteTableData['Login_and_Search_Product_Test_Cases__0_']= { tableData: data, tableDiv: 'times-div-Login_and_Search_Product_Test_Cases__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 ms</span>
+              <div id="times-div-Login_and_Search_Product_Test_Cases__0_">
+              </div> <!-- times-div-Login_and_Search_Product_Test_Cases__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Combine Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Create and Delete User Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Create and Delete User Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login and Search Product Test Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Multiple Suite Test Cases Execution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login and Search Product Test Cases (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Combine_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">softAssert</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">complete</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.CreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">136 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.SearchAndBuyPhone</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchPhone(org.testng.TestRunner@702326c9)</span>
+                <span class="method-start">152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPhone(org.testng.TestRunner@702326c9)</span>
+                <span class="method-start">158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyPhone(org.testng.TestRunner@702326c9)</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Create_and_Delete_User_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.CreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">295 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Create_and_Delete_User_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.CreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUsingProviderClass(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_two.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteUser(1, Ravi, Khokhar, rk@gmail.com, 9876543210)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(2, Nikunj, Radadiya, nr@gmail.com, 9886343222)</span>
+                <span class="method-start">162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(3, Jeenal, Radadiya, nr@gmail.com, 7776543278)</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login_and_Search_Product_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">softAssert</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">complete</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.SearchAndBuyPhone</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchPhone(org.testng.TestRunner@29310098)</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPhone(org.testng.TestRunner@29310098)</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyPhone(org.testng.TestRunner@29310098)</span>
+                <span class="method-start">279 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Multiple_Suite_Test_Cases_Execution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login_and_Search_Product_Test_Cases__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">softAssert</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">complete</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.suite_one.SearchAndBuyPhone</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchPhone(org.testng.TestRunner@1c6e1ca7)</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectPhone(org.testng.TestRunner@1c6e1ca7)</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyPhone(org.testng.TestRunner@1c6e1ca7)</span>
+                <span class="method-start">291 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
